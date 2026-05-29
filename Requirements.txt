@@ -4,3 +4,8 @@ numpy
 scikit-learn
 matplotlib
 seaborn
+pymongo
+certifi
+
+# it will initialize setup.py and install the package in editable mode
+#-e .
