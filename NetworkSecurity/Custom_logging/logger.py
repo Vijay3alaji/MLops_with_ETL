@@ -23,6 +23,8 @@ logging.basicConfig(
     ]
 )
 
+logger = logging.getLogger(__name__)
+
 # Test it out to verify it works!
 if __name__ == "__main__":
-    logging.info("Logging has been successfully configured!")
+    logger.info("Logging has been successfully configured!")
